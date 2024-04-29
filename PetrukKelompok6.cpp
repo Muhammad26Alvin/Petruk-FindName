@@ -76,7 +76,7 @@ cout << endl;
 	
 //menyimpan matrix huruf dalam bentuk vector
   vector<string> matrix = {
-	{'a','l','v','i','n','h','p','t','o','s','e','r','b','a','i','c','l','e','m','g','n','n','h'},
+	        {'a','l','v','i','n','h','p','t','o','s','e','r','b','a','i','c','l','e','m','g','n','n','h'},
 		{'q','f','v','r','e','o','m','r','w','l','r','t','t','s','n','o','q','q','n','a','o','a','o'},
 		{'w','e','i','a','i','f','x','a','e','i','r','f','v','f','d','w','x','i','m','i','n','j','i'},
 		{'w','s','t','r','l','g','o','c','a','p','b','i','a','f','o','o','i','w','t','u','a','c','m'},
