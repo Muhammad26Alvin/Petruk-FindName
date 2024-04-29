@@ -73,7 +73,8 @@ int main() {
   }
 
 cout << endl;
-
+	
+//menyimpan matrix huruf dalam bentuk vector
   vector<string> matrix = {
 	{'a','l','v','i','n','h','p','t','o','s','e','r','b','a','i','c','l','e','m','g','n','n','h'},
 		{'q','f','v','r','e','o','m','r','w','l','r','t','t','s','n','o','q','q','n','a','o','a','o'},
@@ -100,6 +101,7 @@ cout << endl;
 		{'h','q','p','p','a','k','d','i','d','i','k','f','u','f','p','s','w','i','l','k','o','m','v'},
   };
 
+//mencari kata yang ada dalam vector di dalam matrix
   for (int i = 0; i < N; i++) {
       if (searchword(matrix, words[i])) {
           cout << "Ada" << endl;
